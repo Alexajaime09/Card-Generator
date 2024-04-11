@@ -1,0 +1,142 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #eff3ff;
+}
+
+.container{
+    width:350px;
+   
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+.container p{
+    text-align: center;
+
+}
+
+#card2{
+    position: absolute;
+    background-color: rgb(214, 38, 38);
+    height: 60px;
+    width: 120px;
+    border-radius: 125px 125px 0 0;
+    transform: rotate(180deg);
+    top: 0;
+    left: 33%;
+}
+
+#card3{
+    position: absolute;
+    background-color: white;
+    /*background-color: rgb(6, 6, 6);*/
+    height: 30px;
+    width: 60px;
+    border-radius: 125px 125px 0 0;
+    transform: rotate(180deg);
+    top: 0;
+    left: 41%;
+   
+}
+
+#card{
+    position: relative;
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+    border-radius: 10px;
+}
+
+#card img{
+    display: block;
+    width: 180px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+}
+
+
+
+.hp{
+    width:80px;
+    background-color: #fff;
+    text-align: center;
+    padding:8px 0;
+    border-radius:30px;
+    margin-left:auto;
+    font-weight: 400;
+}
+.pokemon-name{
+    text-align:center;
+    font-weight:600;
+}
+
+.types{
+    display:flex;
+    justify-content: space-around;
+    margin: 20px 0 40px 0;
+}
+
+.types span{
+    padding: 5px 20px;
+    border-radius:20px;
+    color: white;
+}
+
+.hp span, .types span{
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+}
+
+#stats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.stats h3{
+    font-weight: 500;
+    color: #707070;
+}
+
+/*.stats p{
+    font-weight: 600;
+    color: #707070;
+}*/
+
+
+#btn{
+  
+    padding: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(150, 0, 0);
+    box-shadow: 11px 13px 7px -1px rgba(141, 13, 13, 0.2),
+    -1px 1px 10px 7px rgba(4, 0, 0, 0.50);
+    
+    
+}
+
+.cir-btn{
+    margin: 10px auto;
+    background-color: rgb(221, 16, 16);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
